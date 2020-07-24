@@ -2,17 +2,16 @@ package stepObjects;
 
 import io.cucumber.messages.internal.com.google.gson.Gson;
 import io.cucumber.messages.internal.com.google.gson.reflect.TypeToken;
-import io.cucumber.messages.internal.com.google.gson.stream.JsonReader;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
-import io.restassured.response.ValidatableResponse;
 import org.junit.Assert;
 import pojo.Card;
-import pojo.Mechanics;
 
 import java.lang.reflect.Type;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class HearthstoneServiceObject {
