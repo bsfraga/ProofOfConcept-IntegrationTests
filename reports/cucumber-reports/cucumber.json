@@ -1,0 +1,848 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-23T22:15:34.280Z",
+        "line": 23,
+        "name": "Validar serviço de cartas do HearthStone",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone;validar-serviço-de-cartas-do-hearthstone;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3534000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1446000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o nome \"Kalecgos\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kalecgos\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3479406000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HearthstoneServiceStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 110996000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o código da requisição deverá ser 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3059000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o nome da carta contido na requisição deverá ser \"Kalecgos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kalecgos\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.ONomeDaCartaConidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1142000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o tipo da carta contido na requisição deverá ser \"Minion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Minion\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.OTipoDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 947000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a raridade da carta contido na requisição deverá ser \"Legendary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Legendary\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.ARaridadeDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1144000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a expansão \"Rise of Shadows\" deverá estar contida na requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rise of Shadows\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.AExpensaoDeveraEstarContidaNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1560000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "as mecânicas \"Battlecry, Aura, Discover\" da carta deverão estar contidas na requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Battlecry, Aura, Discover\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.AsMecanicasDaCartaDeveraoEstarContidasNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T22:15:38.000Z",
+        "line": 24,
+        "name": "Validar serviço de cartas do HearthStone",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone;validar-serviço-de-cartas-do-hearthstone;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1306000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1368000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o nome \"Deathwing, Dragonlord\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deathwing, Dragonlord\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 873376000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HearthstoneServiceStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 2395000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o código da requisição deverá ser 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1040000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o nome da carta contido na requisição deverá ser \"Deathwing, Dragonlord\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deathwing, Dragonlord\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.ONomeDaCartaConidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 944000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o tipo da carta contido na requisição deverá ser \"Minion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Minion\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.OTipoDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 875000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a raridade da carta contido na requisição deverá ser \"Legendary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Legendary\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.ARaridadeDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1083000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a expansão \"Whispers of the Old Gods\" deverá estar contida na requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Whispers of the Old Gods\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.AExpensaoDeveraEstarContidaNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1210000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "as mecânicas \"Deathrattle\" da carta deverão estar contidas na requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deathrattle\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.AsMecanicasDaCartaDeveraoEstarContidasNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T22:15:38.894Z",
+        "line": 25,
+        "name": "Validar serviço de cartas do HearthStone",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone;validar-serviço-de-cartas-do-hearthstone;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1199000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1183000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o nome \"Harrison Jones\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harrison Jones\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 912008000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HearthstoneServiceStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1693000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o código da requisição deverá ser 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 855000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o nome da carta contido na requisição deverá ser \"Harrison Jones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harrison Jones\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.ONomeDaCartaConidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 677000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o tipo da carta contido na requisição deverá ser \"Minion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Minion\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.OTipoDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 586000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a raridade da carta contido na requisição deverá ser \"Legendary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Legendary\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.ARaridadeDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 580000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a expansão \"Classic\" deverá estar contida na requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Classic\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.AExpensaoDeveraEstarContidaNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 650000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "as mecânicas \"Battlecry\" da carta deverão estar contidas na requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Battlecry\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.AsMecanicasDaCartaDeveraoEstarContidasNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T22:15:39.820Z",
+        "line": 26,
+        "name": "Validar serviço de cartas do HearthStone",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone;validar-serviço-de-cartas-do-hearthstone;;5",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 940000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 951000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o nome \"Bloodmage Thalnos\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bloodmage Thalnos\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 873412000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HearthstoneServiceStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 4346000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o código da requisição deverá ser 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 717000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o nome da carta contido na requisição deverá ser \"Bloodmage Thalnos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bloodmage Thalnos\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.ONomeDaCartaConidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 673000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o tipo da carta contido na requisição deverá ser \"Minion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Minion\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.OTipoDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 610000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a raridade da carta contido na requisição deverá ser \"Legendary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Legendary\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.ARaridadeDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 733000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a expansão \"Classic\" deverá estar contida na requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Classic\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.AExpensaoDeveraEstarContidaNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1097000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "as mecânicas \"Deathrattle, Spell Damage\" da carta deverão estar contidas na requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deathrattle, Spell Damage\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.AsMecanicasDaCartaDeveraoEstarContidasNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-23T22:15:40.710Z",
+        "line": 27,
+        "name": "Validar serviço de cartas do HearthStone",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone;validar-serviço-de-cartas-do-hearthstone;;6",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 636000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 569000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o nome \"Dragonqueen Alexstrasza\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dragonqueen Alexstrasza\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 903388000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HearthstoneServiceStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1808000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o código da requisição deverá ser 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1024000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o nome da carta contido na requisição deverá ser \"Dragonqueen Alexstrasza\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dragonqueen Alexstrasza\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.ONomeDaCartaConidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 892000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o tipo da carta contido na requisição deverá ser \"Minion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Minion\"",
+                  "offset": 49
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.OTipoDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2761000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a raridade da carta contido na requisição deverá ser \"Legendary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Legendary\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.ARaridadeDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1101000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a expansão \"Descent of Dragons\" deverá estar contida na requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Descent of Dragons\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.AExpensaoDeveraEstarContidaNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 648000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "as mecânicas \"Battlecry\" da carta deverão estar contidas na requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Battlecry\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.HearthstoneServiceStep.AsMecanicasDaCartaDeveraoEstarContidasNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Validar dados de serviço HearthStone",
+    "description": "  Como um usuário fã de HearthStone\n  Quero consumir endpoints do serviço de HearthStone\n  Para obter e validar informações sobre as minhas cartas favoritas",
+    "id": "validar-dados-de-serviço-hearthstone",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/features/feature.feature",
+    "tags": []
+  }
+]
