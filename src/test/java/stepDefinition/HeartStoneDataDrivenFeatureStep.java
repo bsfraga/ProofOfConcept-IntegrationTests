@@ -3,9 +3,9 @@ package stepDefinition;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Então;
-import stepObjects.HearthstoneServiceObject;
+import stepObjects.HearthStoneDataDrivenFeatureObject;
 
-public class HearthstoneServiceStep  extends HearthstoneServiceObject {
+public class HeartStoneDataDrivenFeatureStep extends HearthStoneDataDrivenFeatureObject {
 
     @Dado("que preparo uma requisição do tipo GET para o endpoint {string}")
     public void queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(String path){
@@ -22,34 +22,38 @@ public class HearthstoneServiceStep  extends HearthstoneServiceObject {
         sendRequestToHearthstoneService();
     }
 
-    @Então("o código da requisição deverá ser {int}")
+    @Então("o código de resposta da requisição deverá ser {int}")
     public void oCodigoDaRequisicaoDeveraSer(int statusCode){
         validateStatusCode(statusCode);
     }
 
-    @Então("o nome da carta contido na requisição deverá ser {string}")
+    @Então("o nome da carta contido no corpo da resposta da requisição deverá ser {string}")
     public void ONomeDaCartaConidoNaRequisicaoDeveraSer(String cardName){
         validateCardName(cardName);
     }
 
-    @Então("o tipo da carta contido na requisição deverá ser {string}")
+    @Então("o tipo da carta contido no corpo da resposta da requisição deverá ser {string}")
     public void oTipoDaCartaContidoNaRequisicaoDeveraSer(String type){
         validateCardType(type);
     }
 
-    @Então("a raridade da carta contido na requisição deverá ser {string}")
+    @Então("a raridade da carta contido no corpo da resposta da requisição deverá ser {string}")
     public void aRaridadeDaCartaContidoNaRequisicaoDeveraSer(String rarity){
         validateCardRarity(rarity);
     }
 
-    @Então("a expansão {string} deverá estar contida na requisição")
-    public void aExpensaoDeveraEstarContidaNaRequisicao(String cardSet){
+    @Então("a expansão {string} deverá estar contida no corpo da resposta da requisição")
+    public void aExpansaoDeveraEstarContidaNaRequisicao(String cardSet){
         validateCardExpansion(cardSet);
     }
 
-    @Então("as mecânicas {string} da carta deverão estar contidas na requisição")
+    @Então("as mecânicas {string} da carta deverão estar contidas no corpo da resposta da requisição")
     public void asMecanicasDaCartaDeveraoEstarContidasNaRequisicao(String mechanics){
         validateCardMechanics(mechanics);
     }
 
+    @Então("a mensagem {string} deverá estar contida no corpo da resposta da requisição")
+    public void aMensagemDeveraEstarContidaNoCorpoDaRespostaDaRequisicao(String message){
+        validateMessage(message);
+    }
 }
