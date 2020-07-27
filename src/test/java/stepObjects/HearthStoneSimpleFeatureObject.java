@@ -12,6 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 public class HearthStoneSimpleFeatureObject {
@@ -83,9 +84,9 @@ public class HearthStoneSimpleFeatureObject {
     public void validateResponseSchema(){
         try {
             if(response.getStatusCode() == 404){
-                response.then().assertThat().body(matchesJsonSchemaInClasspath("badRequestSchema.json"));
+                response.then().assertThat().body(matchesJsonSchemaInClasspath("schemas\\badRequestSchema.json"));
             }else{
-                response.then().assertThat().body(matchesJsonSchemaInClasspath("cardSchema.json"));
+                response.then().assertThat().body(matchesJsonSchemaInClasspath("schemas\\cardSchema.json"));
             }
         }catch (Exception e){
             e.printStackTrace();
