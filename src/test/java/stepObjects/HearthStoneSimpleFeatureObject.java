@@ -8,6 +8,7 @@ import org.junit.Assert;
 import pojo.BadRequest;
 import pojo.Card;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -84,9 +85,9 @@ public class HearthStoneSimpleFeatureObject {
     public void validateResponseSchema(){
         try {
             if(response.getStatusCode() == 404){
-                response.then().assertThat().body(matchesJsonSchemaInClasspath("badRequestSchema.json"));
+                response.then().assertThat().body(matchesJsonSchema(new File("src/test/resources/schemas/badRequestSchema.json")));
             }else{
-                response.then().assertThat().body(matchesJsonSchemaInClasspath("cardSchema.json"));
+                response.then().assertThat().body(matchesJsonSchema(new File("src/test/resources/schemas/cardSchema.json")));
             }
         }catch (Exception e){
             e.printStackTrace();

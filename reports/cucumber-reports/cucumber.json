@@ -1,0 +1,1371 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-27T15:55:46.530Z",
+        "line": 20,
+        "name": "Validar serviço de cartas do HearthStone utilizando dados inválidos",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone-com-dados-inválidos;validar-serviço-de-cartas-do-hearthstone-utilizando-dados-inválidos;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1995300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "informo o nome \"Bruno Fraga\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bruno Fraga\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2190700700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 66821700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o código de resposta da requisição deverá ser 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1994000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "a mensagem \"Card not found.\" deverá estar contida no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Card not found.\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aMensagemDeveraEstarContidaNoCorpoDaRespostaDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-27T15:55:48.869Z",
+        "line": 21,
+        "name": "Validar serviço de cartas do HearthStone utilizando dados inválidos",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone-com-dados-inválidos;validar-serviço-de-cartas-do-hearthstone-utilizando-dados-inválidos;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "informo o nome \"Lasier Martins\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lasier Martins\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 849871200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1994500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o código de resposta da requisição deverá ser 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "a mensagem \"Card not found.\" deverá estar contida no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Card not found.\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aMensagemDeveraEstarContidaNoCorpoDaRespostaDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-27T15:55:49.727Z",
+        "line": 22,
+        "name": "Validar serviço de cartas do HearthStone utilizando dados inválidos",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone-com-dados-inválidos;validar-serviço-de-cartas-do-hearthstone-utilizando-dados-inválidos;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "informo o nome \"Silvio Santos\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Silvio Santos\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 867193900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 6039700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o código de resposta da requisição deverá ser 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1994300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "a mensagem \"Card not found.\" deverá estar contida no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Card not found.\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aMensagemDeveraEstarContidaNoCorpoDaRespostaDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Validar dados de serviço HearthStone com dados inválidos",
+    "description": "  Como um usuário fã de hearthstone\n  Quero consumir endpoints do serviço de Hearthstone\n  Para validar o comportamento do serviço ao informar dados inválidos",
+    "id": "validar-dados-de-serviço-hearthstone-com-dados-inválidos",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/features/FailedDataDrivenFeatureExample.feature",
+    "tags": []
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-27T15:55:50.616Z",
+        "line": 11,
+        "name": "Validar serviço de cartas do HearthStone utilizando dados inválidos",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone-com-dados-inválidos;validar-serviço-de-cartas-do-hearthstone-utilizando-dados-inválidos",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que preparo uma requisição do tipo GET para o endpoint de listagem de cartas",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.quePreparoUmaRequisicaoDoTipoGetParaOEndpointDeListagemDeCartas()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "informo o nome de uma carta inválida como parâmetro da requisição",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.informoONomeDeUmaCartaInvalidaComoParametroDaRequisicao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 856764800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "envio a requisição do tipo GET para o serviço do HearthStone",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.envioARequisicaoDoTipoGETParaOServicoDoHearthStone()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "a resposta da requisição deverá retornar 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.aRespostaDaRequisicaoDeveraRetorar(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 275769100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "valido a estrutura da resposta da requisição",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.validoAEstruturaDaRespostaDaRequisicao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a mensagem de erro deverá estar contida no corpo da resposta da requisição",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.aMensagemDeErroDeveraEstarContidaNoCorpoDaRespostaDaRequisicao()"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Validar dados de serviço HearthStone com dados inválidos",
+    "description": "  Como um usuário fã de hearthstone\n  Quero Consumir endpoints do serviço de Hearthstone\n  Para obter e validar informações sobre as minhas cartas favoritas",
+    "id": "validar-dados-de-serviço-hearthstone-com-dados-inválidos",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/features/FailedSimpleFeatureExample.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-27T15:55:51.761Z",
+        "line": 23,
+        "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone;validar-serviço-de-cartas-do-hearthstone-utilizando-dados-válidos;cenários-de-sucesso;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o nome \"Kalecgos\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kalecgos\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 871669000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 4985500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o código de resposta da requisição deverá ser 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o nome da carta contido no corpo da resposta da requisição deverá ser \"Kalecgos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kalecgos\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.ONomeDaCartaConidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o tipo da carta contido no corpo da resposta da requisição deverá ser \"Minion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Minion\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oTipoDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a raridade da carta contido no corpo da resposta da requisição deverá ser \"Legendary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Legendary\"",
+                  "offset": 74
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aRaridadeDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a expansão \"Rise of Shadows\" deverá estar contida no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rise of Shadows\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aExpansaoDeveraEstarContidaNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "as mecânicas \"Battlecry, Aura, Discover\" da carta deverão estar contidas no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Battlecry, Aura, Discover\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.asMecanicasDaCartaDeveraoEstarContidasNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-27T15:55:52.657Z",
+        "line": 24,
+        "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone;validar-serviço-de-cartas-do-hearthstone-utilizando-dados-válidos;cenários-de-sucesso;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o nome \"Deathwing, Dragonlord\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deathwing, Dragonlord\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 904602100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 2992400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o código de resposta da requisição deverá ser 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o nome da carta contido no corpo da resposta da requisição deverá ser \"Deathwing, Dragonlord\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deathwing, Dragonlord\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.ONomeDaCartaConidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o tipo da carta contido no corpo da resposta da requisição deverá ser \"Minion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Minion\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oTipoDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a raridade da carta contido no corpo da resposta da requisição deverá ser \"Legendary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Legendary\"",
+                  "offset": 74
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aRaridadeDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a expansão \"Whispers of the Old Gods\" deverá estar contida no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Whispers of the Old Gods\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aExpansaoDeveraEstarContidaNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "as mecânicas \"Deathrattle\" da carta deverão estar contidas no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deathrattle\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.asMecanicasDaCartaDeveraoEstarContidasNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-27T15:55:53.578Z",
+        "line": 25,
+        "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone;validar-serviço-de-cartas-do-hearthstone-utilizando-dados-válidos;cenários-de-sucesso;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o nome \"Harrison Jones\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harrison Jones\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 866948900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o código de resposta da requisição deverá ser 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o nome da carta contido no corpo da resposta da requisição deverá ser \"Harrison Jones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Harrison Jones\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.ONomeDaCartaConidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o tipo da carta contido no corpo da resposta da requisição deverá ser \"Minion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Minion\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oTipoDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a raridade da carta contido no corpo da resposta da requisição deverá ser \"Legendary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Legendary\"",
+                  "offset": 74
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aRaridadeDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a expansão \"Classic\" deverá estar contida no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Classic\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aExpansaoDeveraEstarContidaNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "as mecânicas \"Battlecry\" da carta deverão estar contidas no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Battlecry\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.asMecanicasDaCartaDeveraoEstarContidasNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-27T15:55:54.457Z",
+        "line": 26,
+        "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone;validar-serviço-de-cartas-do-hearthstone-utilizando-dados-válidos;cenários-de-sucesso;5",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o nome \"Bloodmage Thalnos\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bloodmage Thalnos\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 968925700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1994800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o código de resposta da requisição deverá ser 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o nome da carta contido no corpo da resposta da requisição deverá ser \"Bloodmage Thalnos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bloodmage Thalnos\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.ONomeDaCartaConidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o tipo da carta contido no corpo da resposta da requisição deverá ser \"Minion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Minion\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oTipoDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a raridade da carta contido no corpo da resposta da requisição deverá ser \"Legendary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Legendary\"",
+                  "offset": 74
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aRaridadeDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a expansão \"Classic\" deverá estar contida no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Classic\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aExpansaoDeveraEstarContidaNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "as mecânicas \"Deathrattle, Spell Damage\" da carta deverão estar contidas no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deathrattle, Spell Damage\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.asMecanicasDaCartaDeveraoEstarContidasNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-27T15:55:55.436Z",
+        "line": 27,
+        "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone;validar-serviço-de-cartas-do-hearthstone-utilizando-dados-válidos;cenários-de-sucesso;6",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que preparo uma requisição do tipo GET para o endpoint \"cards/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cards/\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.queEnvioUmaRequisicaoDoTipoGETParaOEndpoint(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "informo o nome \"Dragonqueen Alexstrasza\" como parâmetro da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dragonqueen Alexstrasza\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.informoONomeComoPorametroDaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 858740100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "envio a requisição do tipo GET",
+            "match": {
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.envioArequisicaoDoTipoGET()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1994800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o código de resposta da requisição deverá ser 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oCodigoDaRequisicaoDeveraSer(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o nome da carta contido no corpo da resposta da requisição deverá ser \"Dragonqueen Alexstrasza\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dragonqueen Alexstrasza\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.ONomeDaCartaConidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o tipo da carta contido no corpo da resposta da requisição deverá ser \"Minion\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Minion\"",
+                  "offset": 70
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.oTipoDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "a raridade da carta contido no corpo da resposta da requisição deverá ser \"Legendary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Legendary\"",
+                  "offset": 74
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aRaridadeDaCartaContidoNaRequisicaoDeveraSer(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a expansão \"Descent of Dragons\" deverá estar contida no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Descent of Dragons\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.aExpansaoDeveraEstarContidaNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "as mecânicas \"Battlecry\" da carta deverão estar contidas no corpo da resposta da requisição",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Battlecry\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.HeartStoneDataDrivenFeatureStep.asMecanicasDaCartaDeveraoEstarContidasNaRequisicao(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Validar dados de serviço HearthStone",
+    "description": "  Como um usuário fã de HearthStone\n  Quero consumir endpoints do serviço de HearthStone\n  Para obter e validar informações sobre as minhas cartas favoritas",
+    "id": "validar-dados-de-serviço-hearthstone",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/features/SuccessDataDrivenFeatureExample.feature",
+    "tags": []
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-27T15:55:56.304Z",
+        "line": 11,
+        "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
+        "description": "",
+        "id": "validar-dados-de-serviço-hearthstone;validar-serviço-de-cartas-do-hearthstone-utilizando-dados-válidos",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que preparo uma requisição do tipo GET para o endpoint de listagem de cartas",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.quePreparoUmaRequisicaoDoTipoGetParaOEndpointDeListagemDeCartas()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "informo o nome de uma carta como parâmetro da requisição",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.informoONomeDeUmaCartaComoParametroDaRequisicao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 871198700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "envio a requisição do tipo GET para o serviço do HearthStone",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.envioARequisicaoDoTipoGETParaOServicoDoHearthStone()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 10969400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "a resposta da requisição deverá retornar 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.aRespostaDaRequisicaoDeveraRetorar(int)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 18949300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "valido a estrutura da resposta da requisição",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.validoAEstruturaDaRespostaDaRequisicao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o nome da carta deverá estar contido no corpo da resposta da requisição",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.oNomeDaCartaDeveraEstarContidoNoCorpoDaRespostaDaRequisicao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "o tipo da carta deverá estar contido no corpo da resposta da requisição",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.oTipoDaCartaDeveraEstarContidoNoCorpoDaRespostaDaRequisicao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "a raridade da carta deverá estar contido no corpo da resposta da requisição",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.aRaridadeDaCartaDeveraEstarContidoNoCorpoDaRespostaDaRequisicao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "a expansão que a carta pertence deverá estar contida no corpo da resposta da requisição",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.aExpensaoQueACarataPertenceDeveraEstarContidaNoCorpoDaRespostaDaRequisicao()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "as mecânicas da carta deverão estar contidas no corpo da resposta da requisição",
+            "match": {
+              "location": "stepDefinition.HearthStoneSimpleFeatureStep.asMecanicasDaCartaDeveraoEstarContidasNoCorpoDaRespostaDaRequisicao()"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "Validar dados de serviço HearthStone",
+    "description": "  Como um usuário fã de hearthstone\n  Quero Consumir endpoints do serviço de Hearthstone\n  Para obter e validar informações sobre as minhas cartas favoritas",
+    "id": "validar-dados-de-serviço-hearthstone",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/features/SuccessSimpleFeatureExample.feature",
+    "tags": []
+  }
+]
