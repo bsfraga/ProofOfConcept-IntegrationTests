@@ -84,9 +84,9 @@ public class HearthStoneSimpleFeatureObject {
     public void validateResponseSchema(){
         try {
             if(response.getStatusCode() == 404){
-                response.then().assertThat().body(matchesJsonSchemaInClasspath("schemas\\badRequestSchema.json"));
+                response.then().assertThat().body(matchesJsonSchemaInClasspath("badRequestSchema.json"));
             }else{
-                response.then().assertThat().body(matchesJsonSchemaInClasspath("schemas\\cardSchema.json"));
+                response.then().assertThat().body(matchesJsonSchemaInClasspath("cardSchema.json"));
             }
         }catch (Exception e){
             e.printStackTrace();
