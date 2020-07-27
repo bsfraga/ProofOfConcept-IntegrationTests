@@ -3,7 +3,7 @@
     "line": 5,
     "elements": [
       {
-        "start_timestamp": "2020-07-27T15:55:46.530Z",
+        "start_timestamp": "2020-07-27T21:28:08.020Z",
         "line": 20,
         "name": "Validar serviço de cartas do HearthStone utilizando dados inválidos",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1994500,
+              "duration": 1995100,
               "status": "passed"
             },
             "line": 12,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 1995300,
+              "duration": 999000,
               "status": "passed"
             },
             "line": 13,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 2190700700,
+              "duration": 2675944700,
               "status": "passed"
             },
             "line": 14,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 66821700,
+              "duration": 64827200,
               "status": "passed"
             },
             "line": 15,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 1994000,
+              "duration": 1994500,
               "status": "passed"
             },
             "line": 16,
@@ -98,7 +98,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-27T15:55:48.869Z",
+        "start_timestamp": "2020-07-27T21:28:10.850Z",
         "line": 21,
         "name": "Validar serviço de cartas do HearthStone utilizando dados inválidos",
         "description": "",
@@ -108,6 +108,7 @@
         "steps": [
           {
             "result": {
+              "duration": 992500,
               "status": "passed"
             },
             "line": 12,
@@ -125,6 +126,7 @@
           },
           {
             "result": {
+              "duration": 997600,
               "status": "passed"
             },
             "line": 13,
@@ -142,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 849871200,
+              "duration": 974440500,
               "status": "passed"
             },
             "line": 14,
@@ -154,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 1994500,
+              "duration": 2987600,
               "status": "passed"
             },
             "line": 15,
@@ -172,7 +174,7 @@
           },
           {
             "result": {
-              "duration": 997400,
+              "duration": 998600,
               "status": "passed"
             },
             "line": 16,
@@ -191,7 +193,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-27T15:55:49.727Z",
+        "start_timestamp": "2020-07-27T21:28:11.836Z",
         "line": 22,
         "name": "Validar serviço de cartas do HearthStone utilizando dados inválidos",
         "description": "",
@@ -201,6 +203,7 @@
         "steps": [
           {
             "result": {
+              "duration": 997400,
               "status": "passed"
             },
             "line": 12,
@@ -218,7 +221,6 @@
           },
           {
             "result": {
-              "duration": 996800,
               "status": "passed"
             },
             "line": 13,
@@ -236,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 867193900,
+              "duration": 1047714200,
               "status": "passed"
             },
             "line": 14,
@@ -248,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 6039700,
+              "duration": 996600,
               "status": "passed"
             },
             "line": 15,
@@ -266,7 +268,7 @@
           },
           {
             "result": {
-              "duration": 1994300,
+              "duration": 997300,
               "status": "passed"
             },
             "line": 16,
@@ -296,7 +298,7 @@
     "line": 5,
     "elements": [
       {
-        "start_timestamp": "2020-07-27T15:55:50.616Z",
+        "start_timestamp": "2020-07-27T21:28:12.891Z",
         "line": 11,
         "name": "Validar serviço de cartas do HearthStone utilizando dados inválidos",
         "description": "",
@@ -306,7 +308,7 @@
         "steps": [
           {
             "result": {
-              "duration": 997500,
+              "duration": 997600,
               "status": "passed"
             },
             "line": 12,
@@ -318,7 +320,6 @@
           },
           {
             "result": {
-              "duration": 997200,
               "status": "passed"
             },
             "line": 13,
@@ -330,7 +331,7 @@
           },
           {
             "result": {
-              "duration": 856764800,
+              "duration": 1069375500,
               "status": "passed"
             },
             "line": 14,
@@ -342,7 +343,7 @@
           },
           {
             "result": {
-              "duration": 997400,
+              "duration": 997800,
               "status": "passed"
             },
             "line": 15,
@@ -360,7 +361,7 @@
           },
           {
             "result": {
-              "duration": 275769100,
+              "duration": 319163900,
               "status": "passed"
             },
             "line": 16,
@@ -372,7 +373,7 @@
           },
           {
             "result": {
-              "duration": 996900,
+              "duration": 996700,
               "status": "passed"
             },
             "line": 17,
@@ -396,7 +397,7 @@
     "line": 4,
     "elements": [
       {
-        "start_timestamp": "2020-07-27T15:55:51.761Z",
+        "start_timestamp": "2020-07-27T21:28:14.295Z",
         "line": 23,
         "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
         "description": "",
@@ -406,7 +407,7 @@
         "steps": [
           {
             "result": {
-              "duration": 997900,
+              "duration": 997200,
               "status": "passed"
             },
             "line": 11,
@@ -424,6 +425,7 @@
           },
           {
             "result": {
+              "duration": 997700,
               "status": "passed"
             },
             "line": 12,
@@ -441,7 +443,7 @@
           },
           {
             "result": {
-              "duration": 871669000,
+              "duration": 1018854400,
               "status": "passed"
             },
             "line": 13,
@@ -453,7 +455,7 @@
           },
           {
             "result": {
-              "duration": 4985500,
+              "duration": 6981200,
               "status": "passed"
             },
             "line": 14,
@@ -471,7 +473,6 @@
           },
           {
             "result": {
-              "duration": 997700,
               "status": "passed"
             },
             "line": 15,
@@ -506,7 +507,7 @@
           },
           {
             "result": {
-              "duration": 996700,
+              "duration": 997100,
               "status": "passed"
             },
             "line": 17,
@@ -524,7 +525,7 @@
           },
           {
             "result": {
-              "duration": 997100,
+              "duration": 997200,
               "status": "passed"
             },
             "line": 18,
@@ -542,7 +543,7 @@
           },
           {
             "result": {
-              "duration": 998900,
+              "duration": 998000,
               "status": "passed"
             },
             "line": 19,
@@ -561,7 +562,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-27T15:55:52.657Z",
+        "start_timestamp": "2020-07-27T21:28:15.344Z",
         "line": 24,
         "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
         "description": "",
@@ -588,6 +589,7 @@
           },
           {
             "result": {
+              "duration": 997000,
               "status": "passed"
             },
             "line": 12,
@@ -605,7 +607,7 @@
           },
           {
             "result": {
-              "duration": 904602100,
+              "duration": 1016226900,
               "status": "passed"
             },
             "line": 13,
@@ -617,7 +619,7 @@
           },
           {
             "result": {
-              "duration": 2992400,
+              "duration": 2991900,
               "status": "passed"
             },
             "line": 14,
@@ -635,7 +637,7 @@
           },
           {
             "result": {
-              "duration": 997000,
+              "duration": 997500,
               "status": "passed"
             },
             "line": 15,
@@ -653,7 +655,7 @@
           },
           {
             "result": {
-              "duration": 997000,
+              "duration": 996900,
               "status": "passed"
             },
             "line": 16,
@@ -671,7 +673,7 @@
           },
           {
             "result": {
-              "duration": 997200,
+              "duration": 997100,
               "status": "passed"
             },
             "line": 17,
@@ -689,7 +691,7 @@
           },
           {
             "result": {
-              "duration": 997200,
+              "duration": 997300,
               "status": "passed"
             },
             "line": 18,
@@ -707,7 +709,7 @@
           },
           {
             "result": {
-              "duration": 997600,
+              "duration": 997700,
               "status": "passed"
             },
             "line": 19,
@@ -726,7 +728,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-27T15:55:53.578Z",
+        "start_timestamp": "2020-07-27T21:28:16.377Z",
         "line": 25,
         "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
         "description": "",
@@ -736,7 +738,7 @@
         "steps": [
           {
             "result": {
-              "duration": 997000,
+              "duration": 996900,
               "status": "passed"
             },
             "line": 11,
@@ -754,7 +756,7 @@
           },
           {
             "result": {
-              "duration": 997300,
+              "duration": 998400,
               "status": "passed"
             },
             "line": 12,
@@ -772,7 +774,7 @@
           },
           {
             "result": {
-              "duration": 866948900,
+              "duration": 1040764700,
               "status": "passed"
             },
             "line": 13,
@@ -784,7 +786,7 @@
           },
           {
             "result": {
-              "duration": 997300,
+              "duration": 2992200,
               "status": "passed"
             },
             "line": 14,
@@ -802,6 +804,7 @@
           },
           {
             "result": {
+              "duration": 997200,
               "status": "passed"
             },
             "line": 15,
@@ -819,7 +822,7 @@
           },
           {
             "result": {
-              "duration": 998100,
+              "duration": 997500,
               "status": "passed"
             },
             "line": 16,
@@ -837,7 +840,7 @@
           },
           {
             "result": {
-              "duration": 997000,
+              "duration": 997400,
               "status": "passed"
             },
             "line": 17,
@@ -855,7 +858,6 @@
           },
           {
             "result": {
-              "duration": 997400,
               "status": "passed"
             },
             "line": 18,
@@ -873,6 +875,7 @@
           },
           {
             "result": {
+              "duration": 996900,
               "status": "passed"
             },
             "line": 19,
@@ -891,7 +894,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-27T15:55:54.457Z",
+        "start_timestamp": "2020-07-27T21:28:17.433Z",
         "line": 26,
         "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
         "description": "",
@@ -935,7 +938,7 @@
           },
           {
             "result": {
-              "duration": 968925700,
+              "duration": 980939200,
               "status": "passed"
             },
             "line": 13,
@@ -947,7 +950,7 @@
           },
           {
             "result": {
-              "duration": 1994800,
+              "duration": 1995900,
               "status": "passed"
             },
             "line": 14,
@@ -965,6 +968,7 @@
           },
           {
             "result": {
+              "duration": 995900,
               "status": "passed"
             },
             "line": 15,
@@ -982,6 +986,7 @@
           },
           {
             "result": {
+              "duration": 997300,
               "status": "passed"
             },
             "line": 16,
@@ -999,7 +1004,6 @@
           },
           {
             "result": {
-              "duration": 997100,
               "status": "passed"
             },
             "line": 17,
@@ -1034,6 +1038,7 @@
           },
           {
             "result": {
+              "duration": 996600,
               "status": "passed"
             },
             "line": 19,
@@ -1052,7 +1057,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-27T15:55:55.436Z",
+        "start_timestamp": "2020-07-27T21:28:18.425Z",
         "line": 27,
         "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
         "description": "",
@@ -1080,7 +1085,7 @@
           },
           {
             "result": {
-              "duration": 997400,
+              "duration": 997700,
               "status": "passed"
             },
             "line": 12,
@@ -1098,7 +1103,7 @@
           },
           {
             "result": {
-              "duration": 858740100,
+              "duration": 944510700,
               "status": "passed"
             },
             "line": 13,
@@ -1110,7 +1115,7 @@
           },
           {
             "result": {
-              "duration": 1994800,
+              "duration": 1994000,
               "status": "passed"
             },
             "line": 14,
@@ -1145,6 +1150,7 @@
           },
           {
             "result": {
+              "duration": 997000,
               "status": "passed"
             },
             "line": 16,
@@ -1162,7 +1168,7 @@
           },
           {
             "result": {
-              "duration": 996700,
+              "duration": 997300,
               "status": "passed"
             },
             "line": 17,
@@ -1180,7 +1186,7 @@
           },
           {
             "result": {
-              "duration": 997400,
+              "duration": 997300,
               "status": "passed"
             },
             "line": 18,
@@ -1198,6 +1204,7 @@
           },
           {
             "result": {
+              "duration": 997600,
               "status": "passed"
             },
             "line": 19,
@@ -1227,7 +1234,7 @@
     "line": 5,
     "elements": [
       {
-        "start_timestamp": "2020-07-27T15:55:56.304Z",
+        "start_timestamp": "2020-07-27T21:28:19.386Z",
         "line": 11,
         "name": "Validar serviço de cartas do HearthStone utilizando dados válidos",
         "description": "",
@@ -1237,6 +1244,7 @@
         "steps": [
           {
             "result": {
+              "duration": 998500,
               "status": "passed"
             },
             "line": 12,
@@ -1248,6 +1256,7 @@
           },
           {
             "result": {
+              "duration": 996000,
               "status": "passed"
             },
             "line": 13,
@@ -1259,7 +1268,7 @@
           },
           {
             "result": {
-              "duration": 871198700,
+              "duration": 982428100,
               "status": "passed"
             },
             "line": 14,
@@ -1271,7 +1280,7 @@
           },
           {
             "result": {
-              "duration": 10969400,
+              "duration": 1995000,
               "status": "passed"
             },
             "line": 15,
@@ -1289,7 +1298,7 @@
           },
           {
             "result": {
-              "duration": 18949300,
+              "duration": 11967300,
               "status": "passed"
             },
             "line": 16,
@@ -1301,7 +1310,6 @@
           },
           {
             "result": {
-              "duration": 996700,
               "status": "passed"
             },
             "line": 17,
@@ -1313,7 +1321,7 @@
           },
           {
             "result": {
-              "duration": 998100,
+              "duration": 997400,
               "status": "passed"
             },
             "line": 18,
@@ -1325,6 +1333,7 @@
           },
           {
             "result": {
+              "duration": 997500,
               "status": "passed"
             },
             "line": 19,
@@ -1336,7 +1345,6 @@
           },
           {
             "result": {
-              "duration": 997200,
               "status": "passed"
             },
             "line": 20,
@@ -1348,7 +1356,7 @@
           },
           {
             "result": {
-              "duration": 997200,
+              "duration": 996900,
               "status": "passed"
             },
             "line": 21,

@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.Map;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
-import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
 public class HearthStoneSimpleFeatureObject {
 
