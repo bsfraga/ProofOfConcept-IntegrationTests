@@ -18,5 +18,7 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: 1.8
-      - name: Run the Maven verify phase
+      - name: Access Root Project Directory
+        run: cd /home/runner/work/ProofOfConcept-IntegrationTests/ProofOfConcept-IntegrationTests/
+      - name: Run Maven Tests
         run: mvn test
